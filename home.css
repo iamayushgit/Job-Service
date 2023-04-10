@@ -1,0 +1,139 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    align-items: center;
+
+}
+.nav-content{
+    display: flex;
+    margin-left: 470px;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: rgb(24,48,94);
+    font-weight: 550;
+}
+.nav-item {
+    padding: 5px 10px 5px 0;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.nav-button{
+    margin-left: 300px;
+}
+.nav-button .btn a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button .btn:hover{
+   color: white;
+   background-color: green;
+}
+.search-container{
+    position: relative;
+    padding-top: 10px;
+}
+.search-container img{
+    width: 100%;
+    height: 700px;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+.search .dropdown-item:hover{
+    color: white;
+    background-color: rgb(68, 68, 168);
+}
+
+/* css for content */
+.container{
+    margin: 50px 100px;
+}
+.container h3{
+    margin: 50px 20px 0 20px;
+}
+.container p{
+    margin: 10px 20px;
+}
+.container .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+  .container .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .container .card-text {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .container .save-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    color: black;
+    margin-left: 180px;
+    margin-top: 40px;
+  }
+
+/* css for footer */
+.footer{
+    width: 100%;
+}
+.footer-content{
+    padding: 5% 10%;
+}
+.footer-content h2{
+    font-size: 16px;
+}
+.footer-content ul{
+    padding: 0;
+}
+.footer-content li{
+    list-style: none;
+    padding: 0;
+}
+.footer-content a{
+    text-decoration: none;
+    padding: 0;
+    font-size: 13px;
+    color: black;
+}
+.footer-content a:hover{
+    text-decoration: underline;
+}
+.footer-content p{
+    font-size: 13px;
+}
+.footer-content hr{
+    border: 0;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
